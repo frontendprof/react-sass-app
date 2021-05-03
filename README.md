@@ -17,6 +17,8 @@
 1. abstracts
 2. components
 3. base
+4. layout
+5. utils
 
 ### Components
 
