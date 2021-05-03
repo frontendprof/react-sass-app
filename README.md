@@ -11,3 +11,14 @@
 2. Removing unnecessary files
 3. Cleanup
 4. Wiring up to github account
+
+### sass
+
+1. abstracts
+2. components
+3. base
+
+### Components
+
+1. Header component
+2. Navbar component
