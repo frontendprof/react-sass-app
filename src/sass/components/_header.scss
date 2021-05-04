@@ -1,9 +1,9 @@
 
 .header{
     width:100%;
-    height: 75vh;
+    height: 85vh;
     @include bgImage("/images/3.jpg");
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.6);
     @include flexCenter;
     color:$white;
 
@@ -12,7 +12,7 @@
 
         &-links a{
             text-decoration: none;
-            color:$white;
+            color:$gold;
             margin-left:15px;
             font-size: 17px;
         }

@@ -3,4 +3,11 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+@import "utils/utils";
+
+@import "layout/grid";
+
+// Components
 @import "components/header";
+@import "components/navbar";
+@import "components/about";
