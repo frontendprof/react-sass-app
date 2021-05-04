@@ -24,3 +24,4 @@
 
 1. Header component
 2. Navbar component
+3. About component

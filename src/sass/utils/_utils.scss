@@ -2,3 +2,17 @@
     width: 1200px;
     margin:0 auto;
 }
+
+.whiteBg{
+    background-color: $white!important;
+    & a{
+        color:$ored!important;
+    }
+}
+
+.transparent{
+    background-color: transparent;
+    & a{
+        color: $orange !important;;
+    }
+}

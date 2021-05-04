@@ -1,12 +1,32 @@
-import React from 'react'
+import React from 'react';
+
+import logoPng from "../images/logo.png"
 
 const Navbar = () => {
+    const [state,setState]=React.useState(false);
+
+    const handleScroll=()=>{
+        if(window.scrollY>80){
+            setState(true)
+        }else{
+            setState(false)
+        }
+        // console.log(window.scrollY);
+    }
+
+    React.useEffect(()=>{
+        window.addEventListener("scroll",handleScroll)
+    },[])
+
+
+
+
     return (
-        <div className="navbar">
+        <div className={`navbar ${state ?"whiteBg":"transparent"}`}>
             <div className="container">
                 <div className="navbar__content">
                     <div className="navbar__left">
-                        <img src="/images/logo.png" alt="logo"/>
+                        <img src={logoPng} alt="logo" />
                     </div>
 
                     <ul className="navbar__right">
